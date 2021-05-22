@@ -1,0 +1,27 @@
+{
+  "name": "@wolfe-labs/LiteEncryptionLibrary",
+  "description": "",
+  "sourcePath": "src",
+  "outputPath": "out",
+  "builds": {
+    "lib": {
+      "name": "lib",
+      "slots": {}
+    },
+    "test/encrypt": {
+      "name": "test/encrypt",
+      "slots": {}
+    },
+    "test/decrypt": {
+      "name": "test/decrypt",
+      "slots": {}
+    }
+  },
+  "targets": {
+    "development": {
+      "name": "development",
+      "handleErrors": true,
+      "minify": false
+    }
+  }
+}
